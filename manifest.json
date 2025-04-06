@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest",
+  "manifest_version": 3,
+  "name": "Bing Wallpaper Homepage New Tab",
+  "short_name": "Bing Image",
+  "version": "1.0.0",
+  "description": "New tab with beautiful bing.com daily wallpaper.",
+  "icons": {
+    "16": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg",
+    "256": "icon.svg"
+  },
+  "chrome_settings_overrides": {
+    "homepage": "index.html"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  }
+}
