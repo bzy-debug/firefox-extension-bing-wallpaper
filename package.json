@@ -1,0 +1,29 @@
+{
+  "name": "firefox-extension-bing-wallpaper",
+  "version": "1.0.0",
+  "scripts": {
+    "prepublish": "web-ext build --ignore-files '*.json'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bzy-debug/firefox-extension-bing-wallpaper.git"
+  },
+  "keywords": [
+    "firefox",
+    "extension",
+    "bing",
+    "wallpaper",
+    "new tab",
+    "homepage"
+  ],
+  "author": "Bao Zhiyuan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bzy-debug/firefox-extension-bing-wallpaper/issues"
+  },
+  "homepage": "https://github.com/bzy-debug/firefox-extension-bing-wallpaper#readme",
+  "description": "",
+  "dependencies": {
+    "web-ext": "^8.5.0"
+  }
+}
